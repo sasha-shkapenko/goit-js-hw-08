@@ -14,9 +14,9 @@ let formData = {
     message: '',
 };
 
-function onFormInput() {
-    formData.email = emailEl.value;
-    formData.message = messageEl.value;
+
+function onFormInput(evt) {
+    formData[evt.target.name] = evt.target.value;
     localStorage.setItem(KEY, JSON.stringify(formData));
 }
 
