@@ -16,7 +16,7 @@
   "author": "Alexandra Shkapenko <sasha.shkapenko@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://sasha-shkapenko.github.io/goit-js-hw-08/"
+    "url": "https://github.com/sasha-shkapenko/goit-js-hw-08/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
