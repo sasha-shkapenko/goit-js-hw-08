@@ -8,8 +8,8 @@ player.on('timeupdate', throttle((data) =>
   localStorage.setItem(KEY, data.seconds), 1000)
 );
 
-const savedKey = localStorage.getItem(KEY);
+const savedTime = localStorage.getItem(KEY);
 
-if (savedKey) {
+if (savedTime) {
   player.setCurrentTime(savedTime);
 }
